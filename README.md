@@ -9,6 +9,7 @@ Simple tools for your ec2 infra on AWS
   
   Use a file shipper like filebeat to ship the logs to your ELK/Graylog stack and start monitoring your instance on fly!
 
+# Description:
 This script helps in monitoring your Ubuntu EC2 Instance on high-level for the following parameters every 10 Seconds:
 
 CPU-LOAD
@@ -17,6 +18,7 @@ MEMORY-USED
 
 DISK-USED
 
+# Steps to Perform:
 Ensure that it is a Ubuntu14.04 Instance and you run the script the following way:
 
 $ sudo chmod +x system-monitor.sh
