@@ -9,5 +9,7 @@ MEMORY-USED
 DISK-USED
 
 Ensure that it is a Ubuntu14.04 Instance and you run the script the following way:
+
 $ sudo chmod +x system-monitor.sh
+
 $ sudo setsid /path/to/your/location/system-monitor.sh  >/dev/null 2>&1 < /dev/null &
