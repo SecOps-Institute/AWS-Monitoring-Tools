@@ -1,6 +1,10 @@
 # AWS-Monitoring-Tools
 Simple tools for your ec2 infra on AWS
 
+Requirements:
+  Ubuntu 14.04 LTS
+  Log Rotation to be setup for the file /var/log/system-health.log
+  Use a file shipper like filebeat to ship the logs to your ELK/Graylog stack and start monitoring your instance on fly!
 
 This script helps in monitoring your Ubuntu EC2 Instance on high-level for the following parameters every 10 Seconds:
 
