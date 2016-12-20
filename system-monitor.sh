@@ -1,4 +1,4 @@
-#/bin/bash!
+#!/bin/bash
 # Author: aarvee11
 # Use: system monitor script to dump CPU, RAM and HDD Usage on an ubuntu 14.04 box in total used %
 
